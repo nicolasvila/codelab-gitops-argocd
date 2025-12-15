@@ -6,3 +6,13 @@ backend:
   host: nicolas-vila.codelab.cloud-sp.eu
   service:
     port: 443
+
+
+# Backend configuration
+frontend:
+  name: nicolasvila-frontend-app
+  image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0
+  containerPort: 4200
+  host: nicolas-vila-frontend.codelab.cloud-sp.eu
+  service:
+    port: 443
